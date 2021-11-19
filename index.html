@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Light Field Neural Rendering">
+  <meta name="keywords" content="Light Field">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Light Field Neural Rendering</title>
+ 
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Light Field Neural Rendering</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              Anonymous</span>
+          </div>
+          <h1 style="font-size:24px;font-weight:bold">CVPR Submission: #7077</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    
+
+    
+
+<section class="section">
+  <div class="container">
+
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-two-thirds">
+        <h2 class="title is-2">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+	Classical light field rendering for novel view synthesis can accurately reproduce view-dependent effects 
+        such as reflection, refraction, and translucency, but requires a dense view sampling of the scene. 
+        Methods based on geometric reconstruction need only sparse views, but cannot accurately model 
+        non-Lambertian effects. We introduce a model that combines the strengths and mitigates the limitations 
+        of these two directions. By operating on a four-dimensional representation of the light field, our 
+        model learns to represent view-dependent effects accurately. By enforcing geometric constraints during 
+        training and inference, the scene geometry is implicitly learned from a sparse set of views. Concretely, 
+        we introduce a two-stage transformer-based model that first aggregates features along epipolar lines, 
+        then aggregates features along reference views to produce the color of a target ray. Our model 
+        outperforms the state-of-the-art on multiple forward-facing and 360° datasets, with larger margins on 
+        scenes with severe view-dependent variations
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Abstract. -->
+
+<section class="hero">
+    <div class="hero-body">
+      <div class=" col-max-width container">
+        <h1 class="title shead">
+          Comparisons
+        </h1>
+        <div class="content has-text-justified">
+          <p>
+          Please click on one of the datasets below to view the comparisons.
+          </p>
+
+        </div>
+        <div class="columns is-desktop">
+          <div class="column">
+            <a href="compare/shiny.html">
+              <div class="card">
+                <div class="card-content" style="padding: 24px 6px">
+                  <div class="media">
+                    <div class="media-left">
+                    </div>
+                    <div class="media-content">
+                      <p class="title dtitle"> Shiny</p>
+                      <p class="subtitle is-6">[Wizadwongsa et al. 2021]</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="column">
+            <a href="compare/frontface.html">
+              <div class="card">
+                <div class="card-content" style="padding: 24px 6px">
+                  <div class="media">
+                    <div class="media-left">
+                    </div>
+                    <div class="media-content">
+                      <p class="title dtitle"> Real forward-facing</p>
+                      <p class="subtitle is-6">[Mildenhall et al. 2020]</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="column">
+            <a href="compare/frontface.html">
+              <div class="card">
+                <div class="card-content" style="padding: 24px 6px">
+                  <div class="media">
+                    <div class="media-left">
+                    </div>
+                    <div class="media-content">
+                      <p class="title dtitle"> Blender</p>
+                      <p class="subtitle is-6">[Mildenhall et al. 2020]</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<footer class="footer">
+  <div align="center" class="container">
+    <div class="columns is-centered">
+        <div class="content">
+          This website is borrowed from <a href="https://github.com/nerfies/nerfies.github.io">nerfies</a> and <a href="https://nex-mpi.github.io/">NeX</a>.
+        </div>
+      </div>
+    </div>
+</footer>
+
+</body>
+</html>
