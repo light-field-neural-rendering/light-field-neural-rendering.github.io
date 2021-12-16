@@ -113,7 +113,7 @@
   z-index: 10;
   width: var(--zoombox-size); 
   height: var(--zoombox-size);
-  border: solid white 4px;
+  border: solid black 4px;
 }
 #examples.s0 > .scene >  .scene-method > .zoombox{
   display: block;
@@ -129,5 +129,5 @@
 }
 
 #dataset-name{
-  text-decoration: underline;
+  text-decoration: bold;
 }

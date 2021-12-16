@@ -18,7 +18,12 @@ function getBody(){
         <div id="controls" class="navbar-start s0"><!-- hover bar --></div>
     </div>    
   </nav>
-  <section class="hero is-info">
+  <section>
+    <div id="control_tip" class="notification is-success is-light">
+      We borrow this template from NeX
+    </div>  
+  </section>
+  <section class="hero is-info is-light">
     <div class="hero-body">
       <div class="container is-fluid">
         <h1 class="title" >
